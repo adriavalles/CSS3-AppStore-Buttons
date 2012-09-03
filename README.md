@@ -1,7 +1,7 @@
 # CSS3 APPSTORE BUTTONS
 
 ## DEMO
-You can check a demo of the AppStore buttons here: [http://www.adriavalles.net/lab/css3-appstore-buttons](http://www.adriavalles.net/labs/css3-appstore-buttons)
+You can check a demo of the *CSS3 AppStore buttons* here: [http://www.adriavalles.net/lab/css3-appstore-buttons](http://www.adriavalles.net/labs/css3-appstore-buttons)
 
 ## How to use it
 
@@ -23,13 +23,13 @@ Examples of use
 
 ## Browser compatibility
 
-AppStore buttons work on all major browsers, using CSS3 properties.
+CSS3 AppStore buttons work on advanced browsers. (this means: IE is *not* completely supported)
 
-* Google Chrome.
-* Internet Explorer 7 or greater.
-* Mozilla Firefox 3.5 or greater.
-* Safari 4 or greater.
-* Opera 10 or greater.
+* Google Chrome 10 or greater
+* Mozilla Firefox 4 or greater.
+* Safari 5 or greater.
+* Opera 11 or greater.
+* Internet Explorer 9 or greater. (Does not support gradients yet)
 
 ## Download
 
@@ -37,10 +37,10 @@ AppStore buttons work on all major browsers, using CSS3 properties.
 
 ## Other information
 
-This is a Work In Progress. Feel free to add to this project all the improvements you want.
+First: This is a Work In Progress. If you find any bug or just want to improve anything, collaborate!
 
-Inspired by [La Trucoteca](http://latrucoteca.com/) AppStore buttons [PSD](http://365psd.com/day/3-73/).
+Inspired by [La Trucoteca](http://latrucoteca.com/)'s AppStore buttons [PSD](http://365psd.com/day/3-73/).
 
 AppStore Buttons is released into the public domain: [unlicense.org](http://unlicense.org/). Feel free to copy, modify, publish or distribute this code.
 
-CSS3 AppStore Buttons by [Adrià Vallès](http://www.adriavalles.net)
+[CSS3 AppStore Buttons](http://www.adriavalles.net/lab/css3-appstore-buttons/) by [Adrià Vallès](http://www.adriavalles.net)

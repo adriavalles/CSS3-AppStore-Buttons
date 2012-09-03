@@ -6,7 +6,7 @@
 	<meta name="description" content="AppStore buttons using CSS3"> 
 	<link rel="stylesheet" href="appstore_buttons.css">
 	<style>
-		@font-face { font-family: 'League Gothic'; font-style: normal; font-weight: 400; src: local('League Gothic'); }
+		@font-face { font-family: 'League Gothic'; font-style: normal; font-weight: 400; src: local('League Gothic'), url('example_font.otf'); }
 		body { width: 800px; margin: 0 auto; font: 14px 'Lucida Grande', Lucida, Verdana, sans-serif; background-color: #ececec; color: #4b4b4b; }
 		h1 { text-align: center; margin-bottom: 20px; font-size: 90px; text-transform: uppercase; text-shadow: 2px 2px 0px #fff; font-family: 'League Gothic', 'Lucida Grande', Lucida, Verdana, sans-serif; }
 		code { display: block; padding: 10px; background-color: #f5f5f5; border: 1px solid #aaa; border-bottom: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; font: 12px Courier, mono; background: #fff; }
@@ -74,13 +74,15 @@
 	</section>
 	<section>
 		<h2>Browser compatibility</h2>
-		AppStore buttons work on all major browsers, using CSS3 properties.
+		<p>
+			CSS3 AppStore buttons work on advanced browsers. (this means: IE is <strong>not</strong> completely supported)
+		</p>
 		<ul id="compatibility">
-			<li>Google Chrome.</li>
-			<li>Internet Explorer 7 or greater.</li>
-			<li>Mozilla Firefox 3.5 or greater.</li>
-			<li>Safari 4 or greater.</li>
-			<li>Opera 10 or greater.</li>
+			<li>Google Chrome 10 or greater</li>
+			<li>Mozilla Firefox 4 or greater.</li>
+			<li>Safari 5 or greater.</li>
+			<li>Opera 11 or greater.</li>
+			<li>Internet Explorer 9 or greater. (Does not support gradients yet)</li>
 		</ul>
 	</section>
 	<section>
@@ -95,17 +97,17 @@
 	<section>
 		<h2>Other information</h2>
 		<p>
-			This is a Work In Progress. Feel free to add to this project all the improvements you want.
+			First: This is a Work In Progress. If you find any bug or just want to improve anything, collaborate!
 		</p>
 		<p>
-			Inspired by <a href="http://latrucoteca.com/">La Trucoteca</a> AppStore buttons <a href="http://365psd.com/day/3-73/"> PSD</a>.
+			Inspired by <a href="http://latrucoteca.com/">La Trucoteca</a>'s AppStore buttons <a href="http://365psd.com/day/3-73/"> PSD</a>.
 		<p>
 		<p>
 			AppStore Buttons is released into the public domain: <a href="http://unlicense.org">unlicense.org</a>. Feel free to copy, modify, publish or distribute this code.
 		</p>
 	</section>
 	<footer>
-		CSS3 AppStore Buttons by <a href="http://www.adriavalles.net">Adrià Vallès</a>
+		<a href="http://www.adriavalles.net/lab/css3-appstore-buttons/">CSS3 AppStore Buttons</a> by <a href="http://www.adriavalles.net">Adrià Vallès</a>
 		<a href="https://github.com/adriavalles/CSS3-AppStore-Buttons"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 	</footer>
 </body>
