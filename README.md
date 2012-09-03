@@ -1,7 +1,7 @@
 # CSS3 APPSTORE BUTTONS
 
 ## DEMO
-You can check a demo of the AppStore buttons here: [http://www.adriavalles.net/labs/css3-appstore-buttons](http://www.adriavalles.net/labs/css3-appstore-buttons)
+You can check a demo of the AppStore buttons here: [http://www.adriavalles.net/lab/css3-appstore-buttons](http://www.adriavalles.net/labs/css3-appstore-buttons)
 
 ## How to use it
 
