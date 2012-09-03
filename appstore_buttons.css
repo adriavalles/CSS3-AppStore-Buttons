@@ -1,0 +1,65 @@
+@charset "utf-8";
+a.button {
+    position: relative; display: inline-block;
+    padding: 5px 15px;
+    font: bold 12px Helvetica, Arial, Geneva, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #0071c9;
+    border-radius: 999px;
+   	box-shadow: 1px 1px 2px #918e8e, inset 1px 1px 0px #82d2fb;
+    text-shadow: 0 -1px 0 #0f619d;
+    background: -moz-linear-gradient(bottom, rgb(0, 116, 204) 0%, rgb(45, 167, 247) 71.8%) #1a88da;
+    background: -webkit-linear-gradient(bottom, rgb(0, 116, 204) 0%, rgb(45, 167, 247) 71.8%) #1a88da;
+}
+a.button:hover {
+    box-shadow: 1px 1px 2px #777, inset 1px 1px 0px #82d2fb, inset 0 0 4px #a2ddfb
+}
+a.button:active {
+    top: 1px;
+    box-shadow: 1px 1px 2px #777, inset 0 0 5px #0b6af0, inset 0 0 5px #0b6af0
+}
+a.button img {
+	float:left;
+	width:13px;
+	height:13px;
+	margin-right:10px;
+}
+a.button-big {
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+a.button-big img {
+	float:left;
+	width:25px;
+	height:25px;
+	margin-right:20px;
+}
+a.button-price {
+    margin-right: 53px;
+    padding-right: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+a.button-disabled, a.button-disabled:hover, a.button-disabled:active {
+    top: 0px;
+    color: #afafac;
+    text-shadow: 0 -1px 0 #ffffff;
+    border: 1px solid #bfbcbc;
+    box-shadow: inset 1px 1px 0 #eee;
+    background: -moz-linear-gradient(bottom, rgb(246, 246, 246) 0%, rgb(233, 233, 233) 71.8%) #cacacb;
+    background: -webkit-linear-gradient(bottom, rgb(246, 246, 246) 0%, rgb(233, 233, 233) 71.8%) #cacacb;
+}
+a.button-price span {
+    position: absolute; display: block;
+    top: -1px; right: -53px;
+    padding: 5px 10px;
+    border-left: 1px solid #333;
+    border-top-right-radius: 99px;
+    border-bottom-right-radius: 99px;
+    border: 1px solid #0071c9;
+    box-shadow: 1px 1px 2px #918e8e, inset 1px 1px 0px #82d2fb;
+    background: -moz-linear-gradient(bottom, rgb(0, 116, 204) 0%, rgb(45, 167, 247) 71.8%) #1a88da;
+    background: -webkit-linear-gradient(bottom, rgb(0, 116, 204) 0%, rgb(45, 167, 247) 71.8%) #1a88da;
+}

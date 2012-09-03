@@ -1,9 +1,76 @@
 <!doctype html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>AppStore Buttons</title>
-	<link rel="stylesheet" href="css/appstore_buttons.css">
-	<link rel="stylesheet" href="css/style.css">
+	<meta name="description" content="AppStore buttons using CSS3"> 
+	<link rel="stylesheet" href="appstore_buttons.css">
+	<style>
+		@font-face {
+		  font-family: 'League Gothic';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('League Gothic');
+		}
+		
+		body {
+			width:800px;
+			margin:0 auto;
+			font: 14px 'Lucida Grande', Lucida, Verdana, sans-serif;
+			background-color: #ececec;
+			color: #4b4b4b;
+		}
+		
+		h1 {
+			text-align: center;
+			margin-bottom: 20px;
+			font-size: 90px;
+			text-transform:uppercase;
+			text-shadow: 2px 2px 0px #fff;
+			font-family: 'League Gothic', 'Lucida Grande', Lucida, Verdana, sans-serif;
+		}
+		
+		code {
+			display:block;
+			padding: 10px;
+			background-color: #f5f5f5;
+			border: 1px solid #aaa;
+			border-bottom:0;
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+			font: 12px Courier, mono;
+			background:#fff;
+		}
+		
+		span.mono {
+			font-family:Monospace;
+			color: #5a9c4a;
+		}
+		
+		p.preview {
+			text-align:center;	
+			background: #fff;
+			margin:0 0 20px;
+			padding: 15px 5px;
+			border: 1px solid #aaa;
+			border-bottom-left-radius: 4px;
+			border-bottom-right-radius: 4px;
+		}
+		
+		p#download {
+			text-align:center;
+		}
+		
+		footer{
+			text-align:center;
+			font-size:12px;
+			margin:20px 0 30px;
+		}
+		
+		 a {
+		 	color:#4183c4;
+		 }
+	</style>
 </head>
 
 <body>
@@ -11,55 +78,64 @@
 		<h1>AppStore buttons</h1>
 	<header>
 	<section>
-		<h2>Basic button</h2>
+		<h2>How to use it</h2>
+		<p>
+			First, you obviously have to add the "appstore_buttons.css" file to your project and HTML page. Then, the button can be created by adding <span class="mono">class="button"</span> to any <span class="mono">&lt;a&gt;</span> element you want. That's it.
+		</p>
+	</section>
+	<section>
+		<h2>Examples</h2>
+		<h3>Basic button</h3>
 		<code>
 			&lt;a class="button" href="#"&gt;Buy app on iTunes&lt;/a&gt;
 		</code>
 		<p class="preview">
 			<a class="button" href="#">Buy app on iTunes</a>
 		</p>
-		<h2>Button with price</h2>
+		<h3>Button with price</h3>
 		<code>
 			&lt;a class="button button-price" href="#"&gt;Buy app on iTunes &lt;span&gt;$0.99&lt;/span&gt;&lt;/a&gt;
 		</code>
 		<p class="preview">
 			<a class="button button-price" href="#">Buy app on iTunes <span>$0.99</span></a>
 		</p>
-		<h2>Disabled button</h2>
+		<h3>Disabled button</h3>
 		<code>
 			&lt;a class="button button-disabled" href="#"&gt;Buy app on iTunes&lt;/a&gt;
 		</code>
 		<p class="preview">
 			<a class="button button-disabled" href="#">Buy app on iTunes</a>
 		</p>
-		<h2>Big button</h2>
+		<h3>Big button</h3>
 		<code>
 			&lt;a class="button button-big" href="#"&gt;Download iTunes now&lt;/a&gt;
 		</code>
 		<p class="preview">
 			<a class="button button-big" href="#">Download iTunes now</a>
 		</p>
-		<h2>Using images</h2>
+		<h3>Using images</h3>
 		<code>
-			&lt;a class="button" href="#"&gt;&lt;img src="./img/down.png" alt="Icon"/&gt; Download app&lt;/a&gt;
+			&lt;a class="button" href="#"&gt;&lt;img src="./example_images/down.png" alt="Icon"/&gt; Download app&lt;/a&gt;
 		</code>
 		<p class="preview">
-			<a class="button" href="#"><img src="./img/down.png" alt="Icon"/> Download app</a>
+			<a class="button" href="#"><img src="./example_images/down.png" alt="Icon"/> Download app</a>
 		</p>
 		<code>
-			&lt;a class="button button-big" href="#"&gt;&lt;img src="./img/down.png" alt="Icon"/&gt; Download iTunes now&lt;/a&gt;
+			&lt;a class="button button-big" href="#"&gt;&lt;img src="./example_images/down.png" alt="Icon"/&gt; Download iTunes now&lt;/a&gt;
 		</code>
 		<p class="preview">
-			<a class="button button-big" href="#"><img src="./img/down.png" alt="Icon"/> Download iTunes now</a>
+			<a class="button button-big" href="#"><img src="./example_images/down.png" alt="Icon"/> Download iTunes now</a>
 		</p>
 	</section>
 	<section>
-		<h2>Compatibility</h2>
+		<h2>Browser compatibility</h2>
+		AppStore buttons work on all major browsers, using CSS3 properties.
 		<ul id="compatibility">
-			<li>Internet Explorer: 7+</li>
-			<li>Google Chrome: All</li>
-			<li>Mozilla Firefox: 10+</li>
-			<li>Opera: 5+</li>
+			<li>Google Chrome.</li>
+			<li>Internet Explorer 7 or greater.</li>
+			<li>Mozilla Firefox 3.5 or greater.</li>
+			<li>Safari 4 or greater.</li>
+			<li>Opera 10 or greater.</li>
 		</ul>
 	</section>
 	<section>
@@ -69,7 +145,8 @@
 		</p>
 	</section>
 	<footer>
-		<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">AppStore Buttons</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a>. - Fork this on GitHub
+		AppStore Buttons is released into the public domain: <a href="http://unlicense.org">unlicense.org</a>. Feel free to copy, modify, publish or distribute this code.
 	</footer>
+	<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 </body>
 </html>
