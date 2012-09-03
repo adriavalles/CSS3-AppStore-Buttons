@@ -33,7 +33,7 @@ AppStore buttons work on all major browsers, using CSS3 properties.
 
 ## Download
 
-Download AppStore buttons on GitHub
+[Download ZIP](https://github.com/adriavalles/CSS3-AppStore-Buttons/zipball/master)
 
 ## Other information
 
