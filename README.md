@@ -35,6 +35,10 @@ CSS3 AppStore buttons work on advanced browsers. (this means: IE is *not* comple
 
 [Download ZIP](https://github.com/adriavalles/CSS3-AppStore-Buttons/zipball/master)
 
+## To do
+
+* Add support with buttons inside forms.
+
 ## Other information
 
 First: This is a Work In Progress. If you find any bug or just want to improve anything, collaborate!
